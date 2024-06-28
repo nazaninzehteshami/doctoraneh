@@ -1,0 +1,100 @@
+body {
+    font-family: "noto-sans-arabic", sans-serif;
+    background-color: #e0effe;
+    color: #343a40;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #2c3e50 !important;
+    
+}
+
+.nav-link {
+    color: #2c3e50 !important;
+    margin-left: 15px;
+}
+
+.btn-login{
+    background-color: #18bc9c;
+    color: white;
+    border: none;
+
+}
+
+.nav-link:hover {
+    color: #18bc9c !important;
+}
+
+.header {
+    background-image: linear-gradient(to right, #3498db, #2ecc71);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+}
+
+.header .btn {
+    background-color: #288673;
+    border: none;
+}
+
+
+
+.service-card, .doctor-card {
+    border: none;
+    border-radius: 10px;
+    
+}
+
+ .doctor-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: large;
+    color: #2e8a5b;
+}
+
+.cart.text{
+    font-weight: bold;
+    font-size: medium;
+    color: #1f5e3d; 
+}
+
+footer {
+    background-image: linear-gradient(to right, #3498db, #2ecc71);
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+}
+
+.text-center h2{
+    font-weight: bold;
+    font-size: large;
+    color: #2e8a5b;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        width: 40px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .header {
+        padding: 50px 0;
+    }
+    .nav-item{
+        text-align: right;
+    }
+  
+
+}
